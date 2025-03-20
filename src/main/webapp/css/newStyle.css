@@ -1,0 +1,65 @@
+/* Style.css */
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand, .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-custom {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}

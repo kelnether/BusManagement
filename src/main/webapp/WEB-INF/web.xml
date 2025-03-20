@@ -1,0 +1,133 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+    <welcome-file-list>
+        <welcome-file>/jsp/index.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <servlet>
+        <servlet-name>BusLineController</servlet-name>
+        <servlet-class>controller.BusLineController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BusLineController</servlet-name>
+        <url-pattern>/BusLineController/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RegisterController</servlet-name>
+        <servlet-class>controller.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterController</servlet-name>
+        <url-pattern>/RegisterController</url-pattern>
+    </servlet-mapping>
+
+    <!--    启用多文件servlet时，取消下列注释
+      <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewBusLineServlet</servlet-name>
+        <servlet-class>controller.NewBusLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewBusLineServlet</servlet-name>
+        <url-pattern>/newBusLine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsertBusLineServlet</servlet-name>
+        <servlet-class>controller.InsertBusLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertBusLineServlet</servlet-name>
+        <url-pattern>/insertBusLine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteBusLineServlet</servlet-name>
+        <servlet-class>controller.DeleteBusLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteBusLineServlet</servlet-name>
+        <url-pattern>/deleteBusLine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditBusLineServlet</servlet-name>
+        <servlet-class>controller.EditBusLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditBusLineServlet</servlet-name>
+        <url-pattern>/editBusLine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateBusLineServlet</servlet-name>
+        <servlet-class>controller.UpdateBusLineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateBusLineServlet</servlet-name>
+        <url-pattern>/updateBusLine</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListBusLinesServlet</servlet-name>
+        <servlet-class>controller.ListBusLinesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListBusLinesServlet</servlet-name>
+        <url-pattern>/listBusLines</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowTransferRoutesServlet</servlet-name>
+        <servlet-class>controller.ShowTransferRoutesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowTransferRoutesServlet</servlet-name>
+        <url-pattern>/showTransferRoutes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveBusStopDistanceServlet</servlet-name>
+        <servlet-class>controller.SaveBusStopDistanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveBusStopDistanceServlet</servlet-name>
+        <url-pattern>/saveBusStopDistance</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowLineInfoServlet</servlet-name>
+        <servlet-class>controller.ShowLineInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowLineInfoServlet</servlet-name>
+        <url-pattern>/showLineInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchBusLineOrStopServlet</servlet-name>
+        <servlet-class>controller.SearchBusLineOrStopServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchBusLineOrStopServlet</servlet-name>
+        <url-pattern>/searchBusLineOrStop</url-pattern>
+    </servlet-mapping>
+
+    -->
+</web-app>
